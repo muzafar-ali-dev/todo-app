@@ -2,12 +2,17 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App: React.FC = () => {
+  let count: number = 0;
+
+  count = 12;
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          Hello React App.
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
